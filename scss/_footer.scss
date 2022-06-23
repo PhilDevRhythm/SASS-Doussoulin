@@ -1,6 +1,8 @@
 footer {
-    grid-column: 2 / 6;
+    grid-column: 1 / 6;
     grid-row: 6 / 7;
+    align-items: stretch;
+
 
     ul {
         text-decoration: none;
@@ -10,7 +12,7 @@ footer {
         flex-wrap: wrap;
         padding: 10px;
         justify-content: center;
-
+        
         li {
             list-style-type: none;
             padding: 10px;
