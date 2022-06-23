@@ -1,0 +1,31 @@
+footer {
+    grid-column: 2 / 6;
+    grid-row: 6 / 7;
+
+    ul {
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 100;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: center;
+
+        li {
+            list-style-type: none;
+            padding: 10px;
+            flex-direction: column;
+
+            a {
+                text-decoration: none;
+                color: black;
+                justify-self: stretch;
+
+                &:hover {
+                    color: white;
+                    background-color: black;
+                }
+            }
+        }
+    }
+}
